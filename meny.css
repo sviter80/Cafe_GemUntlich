@@ -1,0 +1,82 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    line-height: 1.4;
+    font-family: "Arial", sans-serif;
+  }
+ .menu{
+  padding-top:2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin-top: 10px;
+  background-color: #401300;
+  border: 1px solid;
+  margin-bottom: 50px;
+  text-align: center;
+  border-radius: 100px 15px;
+  border-color:#cfc7bc ;
+  font-family: Georgia, serif;
+  width: 1750px;
+  margin-left: 60px;
+  position: fixed;
+}
+.act{
+  font-size: 25px;
+  font-weight: bold;
+  display: inline;
+  background-color:   #401300;
+  color:#B38545;
+  margin:35px;
+  padding-top:5px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-decoration:none;
+ }
+.act:hover{
+  background-color: #B38545;
+  color: #401300;
+  border-radius: 25px 10px;;
+}
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:900');
+
+svg {
+  padding-top: 105px;
+  background: #877f70;
+  margin-left: 40px;
+}
+
+text {
+  fill: #401300;
+  filter: url('#money');
+  font-family: 'Playfair Display', 'Georgia', serif;
+  font-size: 120px;
+  font-weight: 900;
+}
+
+html {
+  align-items: center;
+  background: #877f70;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 800px;
+}
+#logo{
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+    text-align: center;
+    margin-left: 700px;
+    margin-top: -40px;
+}
+.menut{
+  border-radius: 25px;
+  width:800px;
+  height: 1000px;
+  margin-top: 50px;
+  margin-left: 475px;
+}
+

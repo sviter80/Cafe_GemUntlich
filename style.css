@@ -1,0 +1,155 @@
+@media screen and (max-width: 480px){
+  body{
+    padding: 0px;
+    margin: 0px;
+    font-size: 5.6px;
+    line-height: 0,25;
+    font-family: "Arial", sans-serif;
+  }
+  .menu{
+    display: block;
+    width: 230px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    line-height: 1.4;
+    font-family: "Arial", sans-serif;
+  }
+ .menu{
+  padding-top:2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin-top: 10px;
+  background-color: #401300;
+  border: 1px solid;
+  margin-bottom: 200px;
+  text-align: center;
+  border-radius: 100px 15px;
+  border-color:#cfc7bc ;
+  font-family: Georgia, serif;
+  width: 1750px;
+  margin-left: 60px;
+  position: fixed;
+}
+.act{
+  font-size: 25px;
+  font-weight: bold;
+  display: inline;
+  background-color:   #401300;
+  color:#B38545;
+  margin:35px;
+  padding-top:5px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-decoration:none;
+ }
+.act:hover{
+  background-color: #B38545;
+  color: #401300;
+  border-radius: 25px 10px;;
+}
+
+#logo{
+  width: 400px;
+  height: 400px;
+  border-radius: 200px;
+  text-align: center;
+  margin-left: 700px;
+  margin-top: -40px;
+}
+#aboutUs{
+  font-family: "URW Chancery" L;
+  font-size: 20px;
+  padding-left: 10px;
+}
+.text{
+  font-family: "URW Chancery" L;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.texts{
+  background-color:#cfc7bc;
+  border-radius: 15px; 
+  padding-left: 5px;
+  margin-top:100px;
+  width: 950px;
+  margin-top: 200px;
+  margin-left: 20px;
+}
+#information{
+  display: grid;
+  grid-template-columns: 800px 800px;
+  grid-template-rows: 400px 400px 400px;
+}
+.photos{
+  border-radius: 25px;
+  width: 600px;
+  height: 400px;
+  margin-left: 270px;
+  margin-top: 100px;
+}
+.photosT{
+  border-radius: 25px;
+  width: 620px;
+  height: 420px;
+  margin-left: 120px;
+  margin-top: 70px; 
+}
+
+
+#navBottom{
+  display: grid;
+  grid-template-rows: 90px 90px;
+  background-color: #401300;
+  margin-top: 400px;
+  width: auto;
+  margin-left: -60px;
+  margin-right: -60px;
+}
+  
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:900');
+
+svg {
+  padding-top: 105px;
+  background: #877f70;
+  margin-left: 40px;
+}
+
+text {
+  fill: #401300;
+  filter: url('#money');
+  font-family: 'Playfair Display', 'Georgia', serif;
+  font-size: 120px;
+  font-weight: 900;
+}
+
+html {
+  align-items: center;
+  background: #877f70;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 800px;
+}
